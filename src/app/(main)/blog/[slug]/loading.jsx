@@ -14,6 +14,7 @@ export default function Loading() {
                         <Skeleton className="h-12 w-3/4 mx-auto mb-4" /> {/* Title */}
                         <Skeleton className="h-6 w-2/3 mx-auto mb-6" /> {/* Excerpt */}
                         
+
                         <div className="flex items-center justify-center gap-4">
                             <Skeleton className="h-5 w-32" /> {/* Created date */}
                             <Skeleton className="h-5 w-32" /> {/* Reading time */}
@@ -22,6 +23,7 @@ export default function Loading() {
                     </div>
 
                     <Skeleton className="aspect-video w-full rounded-lg mb-10" /> {/* Featured image */}
+
 
                     <div className="space-y-4 mb-10"> {/* Content */}
                         <Skeleton className="h-6 w-full" />
