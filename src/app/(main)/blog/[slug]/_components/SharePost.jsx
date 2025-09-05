@@ -26,6 +26,7 @@ export default function SharePost({ title, url }) {
         },
     ];
 
+    
     const copyLink = async () => {
         await navigator.clipboard.writeText(url);
         toast.success('Link copied to clipboard!');

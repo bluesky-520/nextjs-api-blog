@@ -13,7 +13,7 @@ export default function NotFound() {
                     <h1 className="text-9xl font-bold text-gray-200 dark:text-gray-700">404</h1>
                     <div className="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-200">
-                            Page Not Found
+                            404 Page Not Found
                         </h2>
 
                         <p className="text-gray-600 dark:text-gray-400 mt-2 mb-8">
@@ -26,14 +26,14 @@ export default function NotFound() {
                                 variant="outline"
                                 className="hover:shadow-md transition-shadow"
                             >
-                                Go Back
+                                Go Back Home
                             </Button>
 
                             <Button
                                 onClick={() => router.push('/')}
                                 className="hover:shadow-md transition-shadow"
                             >
-                                Home Page
+                                DashBoard
                             </Button>
                         </div>
                     </div>
